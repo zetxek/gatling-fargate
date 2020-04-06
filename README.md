@@ -18,6 +18,8 @@ To inspect the results, configure the s3 bucket to act as a website and browse /
 
 Build Docker image
 ===
+Before building, make sure you create the folder `./docker/downloads`, and put there the gatling version you want to use, [as downloaded from the official site](https://gatling.io/open-source/). The file should be named `gatling.zip`.
+
 Build takes one build argument, which is GATLING_VERSION. NOTE: Gatling >= 3.0.0 is assumed, script command line arguments in run-gatling.sh are adjusted accordingly 
 
 ```
